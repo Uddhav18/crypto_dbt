@@ -1,0 +1,30 @@
+[0m09:21:18.222508 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021929837CB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021926865D10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002192B8F7D90>]}
+
+
+============================== 09:21:18.277163 | 0a729fe5-481b-41d8-9b37-7b17e293edca ==============================
+[0m09:21:18.277163 [info ] [MainThread]: Running with dbt=1.10.9
+[0m09:21:18.278409 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'cache_selected_only': 'False', 'target_path': 'None', 'version_check': 'True', 'invocation_command': 'dbt init crypto', 'log_format': 'default', 'use_colors': 'True', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'use_experimental_parser': 'False', 'quiet': 'False', 'printer_width': '80', 'empty': 'None', 'log_path': 'logs', 'indirect_selection': 'eager', 'write_json': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'profiles_dir': 'C:\\Users\\uddha\\.dbt'}
+[0m09:21:18.918516 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\uddha\.dbt
+[0m09:21:18.946296 [debug] [MainThread]: Starter project path: C:\Users\uddha\Project\venv\Lib\site-packages\dbt\include\starter_project
+[0m09:21:19.002986 [info ] [MainThread]: 
+Your new dbt project "crypto" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m09:21:19.004929 [info ] [MainThread]: Setting up your profile.
+[0m09:22:52.932477 [info ] [MainThread]: Profile crypto written to C:\Users\uddha\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m09:22:52.937922 [debug] [MainThread]: Command `dbt init` succeeded at 09:22:52.937031 after 94.94 seconds
+[0m09:22:52.939571 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002192C4D9BA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002192B2C5A30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002192C4D4E20>]}
+[0m09:22:52.941433 [debug] [MainThread]: Flushing usage events
+[0m09:22:54.098748 [debug] [MainThread]: An error was encountered while trying to flush usage events
