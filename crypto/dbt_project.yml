@@ -31,6 +31,19 @@ clean-targets:         # directories to be removed by `dbt clean`
 # files using the `{{ config(...) }}` macro.
 models:
   crypto:
-    # Config indicated by + and applies to all files under models/example/
-    example:
+  # Default schema for all models
+    landing:
+      +schema: landing
+      
+    staging:
+      +database: DB_DEV
+      +schema: STAGING
+      +materialized: table
+    base:
+      +database: DB_DEV
+      +schema: BASE
+      +materialized: table
+    access:
+      +database: DB_DEV
+      +schema: ACCESS
       +materialized: view
