@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: landing
+    description: "Source data for crypto models"
+    database: DB_DEV                
+    schema: landing              
+  
+    tables:
+      - name: raw_crypto_data
