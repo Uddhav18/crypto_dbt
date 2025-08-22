@@ -1,0 +1,15 @@
+#version: '3'
+services:
+  ukg-airflow:
+    build: .
+    image: ukg-airflow:latest
+
+    volumes:
+      - ./airflow:/opt/airflow
+      - ./dbt:/opt/dbt
+
+    ports:
+      - "8080:8080"
+
+    command: airflow standalone
+
